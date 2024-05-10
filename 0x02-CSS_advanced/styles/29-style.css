@@ -106,7 +106,7 @@ a:active {
     background-color: var(--color-light-grey);
 }
 
-nav .nav-link::before {
+.nav .nav-link::before {
     content: "";
     position: absolute;
     top: 0;
@@ -116,7 +116,7 @@ nav .nav-link::before {
     height: 20%;
 }
 
-nav .nav-link::before .nav-item:hover {
+.nav .nav-link::before .nav-item:hover {
     background-color: var(--color-primary);
     width: 100%;
 }
